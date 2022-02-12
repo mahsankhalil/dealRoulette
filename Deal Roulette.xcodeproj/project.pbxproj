@@ -1,0 +1,758 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		410DA479277162F3009D242D /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410DA478277162F3009D242D /* HomePage.swift */; };
+		4111BFE227A487C7008221F4 /* hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4111BFE127A487C7008221F4 /* hex.swift */; };
+		4115212E27922AB100609717 /* PayoutStacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4115212D27922AAF00609717 /* PayoutStacks.swift */; };
+		4115213027922B1500609717 /* Tricks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4115212F27922B1500609717 /* Tricks.swift */; };
+		4141393927722F5D000276BC /* PayoutsFive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4141393827722F5D000276BC /* PayoutsFive.swift */; };
+		4141393B27722F7C000276BC /* PayoutsSix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4141393A27722F7C000276BC /* PayoutsSix.swift */; };
+		4141393D27722F98000276BC /* PayoutsEight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4141393C27722F98000276BC /* PayoutsEight.swift */; };
+		4141393F27722FB2000276BC /* PayoutsEleven.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4141393E27722FB2000276BC /* PayoutsEleven.swift */; };
+		4141394127722FD0000276BC /* PayoutsSeventeen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4141394027722FD0000276BC /* PayoutsSeventeen.swift */; };
+		4141394327722FEB000276BC /* PayoutsThirtyFive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4141394227722FEB000276BC /* PayoutsThirtyFive.swift */; };
+		416C23A427717BF500790AC4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 416C23A327717BF500790AC4 /* GoogleService-Info.plist */; };
+		416C23A527717BF500790AC4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 416C23A327717BF500790AC4 /* GoogleService-Info.plist */; };
+		416C23A627717BF500790AC4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 416C23A327717BF500790AC4 /* GoogleService-Info.plist */; };
+		416C23A9277181C300790AC4 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 416C23A8277181C300790AC4 /* FirebaseDatabase */; };
+		416C23AB277181C300790AC4 /* FirebaseDatabaseSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 416C23AA277181C300790AC4 /* FirebaseDatabaseSwift-Beta */; };
+		416C23AD277181C300790AC4 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 416C23AC277181C300790AC4 /* FirebaseFirestore */; };
+		416C23AF277181C300790AC4 /* FirebaseFirestoreSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 416C23AE277181C300790AC4 /* FirebaseFirestoreSwift-Beta */; };
+		416E728B2772588400F27D6B /* PictureBets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416E728A2772588400F27D6B /* PictureBets.swift */; };
+		416E728D277259D500F27D6B /* FindTheNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416E728C277259D500F27D6B /* FindTheNumber.swift */; };
+		41BCA34A27A647CC00818B14 /* TutorialPay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BCA34927A647CC00818B14 /* TutorialPay.swift */; };
+		41BCA34C27A6483600818B14 /* TutorialTake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BCA34B27A6483600818B14 /* TutorialTake.swift */; };
+		41CC414227A47CE8002985C2 /* BeforeYouDeal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CC414127A47CE8002985C2 /* BeforeYouDeal.swift */; };
+		41EC4B0B27713BD20000BC90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EC4B0A27713BD20000BC90 /* AppDelegate.swift */; };
+		41EC4B0D27713BD20000BC90 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EC4B0C27713BD20000BC90 /* SceneDelegate.swift */; };
+		41EC4B0F27713BD20000BC90 /* DealGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EC4B0E27713BD20000BC90 /* DealGame.swift */; };
+		41EC4B1227713BD20000BC90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41EC4B1027713BD20000BC90 /* Main.storyboard */; };
+		41EC4B1427713BD40000BC90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41EC4B1327713BD40000BC90 /* Assets.xcassets */; };
+		41EC4B1727713BD40000BC90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41EC4B1527713BD40000BC90 /* LaunchScreen.storyboard */; };
+		41EC4B2227713BD50000BC90 /* Deal_RouletteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EC4B2127713BD50000BC90 /* Deal_RouletteTests.swift */; };
+		41EC4B2C27713BD50000BC90 /* Deal_RouletteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EC4B2B27713BD50000BC90 /* Deal_RouletteUITests.swift */; };
+		41EC4B2E27713BD50000BC90 /* Deal_RouletteUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EC4B2D27713BD50000BC90 /* Deal_RouletteUITestsLaunchTests.swift */; };
+		41F191D6279C780C00657682 /* CheatSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F191D5279C780C00657682 /* CheatSheet.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		41EC4B1E27713BD40000BC90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41EC4AFF27713BD20000BC90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41EC4B0627713BD20000BC90;
+			remoteInfo = "Deal Roulette";
+		};
+		41EC4B2827713BD50000BC90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41EC4AFF27713BD20000BC90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41EC4B0627713BD20000BC90;
+			remoteInfo = "Deal Roulette";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		410DA478277162F3009D242D /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		4111BFE127A487C7008221F4 /* hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hex.swift; sourceTree = "<group>"; };
+		4115212D27922AAF00609717 /* PayoutStacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayoutStacks.swift; sourceTree = "<group>"; };
+		4115212F27922B1500609717 /* Tricks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tricks.swift; sourceTree = "<group>"; };
+		4141393827722F5D000276BC /* PayoutsFive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayoutsFive.swift; sourceTree = "<group>"; };
+		4141393A27722F7C000276BC /* PayoutsSix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayoutsSix.swift; sourceTree = "<group>"; };
+		4141393C27722F98000276BC /* PayoutsEight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayoutsEight.swift; sourceTree = "<group>"; };
+		4141393E27722FB2000276BC /* PayoutsEleven.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayoutsEleven.swift; sourceTree = "<group>"; };
+		4141394027722FD0000276BC /* PayoutsSeventeen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayoutsSeventeen.swift; sourceTree = "<group>"; };
+		4141394227722FEB000276BC /* PayoutsThirtyFive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayoutsThirtyFive.swift; sourceTree = "<group>"; };
+		416C23A327717BF500790AC4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		416E728A2772588400F27D6B /* PictureBets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureBets.swift; sourceTree = "<group>"; };
+		416E728C277259D500F27D6B /* FindTheNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindTheNumber.swift; sourceTree = "<group>"; };
+		41BCA34927A647CC00818B14 /* TutorialPay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialPay.swift; sourceTree = "<group>"; };
+		41BCA34B27A6483600818B14 /* TutorialTake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialTake.swift; sourceTree = "<group>"; };
+		41CC414127A47CE8002985C2 /* BeforeYouDeal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeforeYouDeal.swift; sourceTree = "<group>"; };
+		41EC4B0727713BD20000BC90 /* Deal Roulette.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Deal Roulette.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41EC4B0A27713BD20000BC90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		41EC4B0C27713BD20000BC90 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		41EC4B0E27713BD20000BC90 /* DealGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealGame.swift; sourceTree = "<group>"; };
+		41EC4B1127713BD20000BC90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		41EC4B1327713BD40000BC90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41EC4B1627713BD40000BC90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		41EC4B1827713BD40000BC90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41EC4B1D27713BD40000BC90 /* Deal RouletteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Deal RouletteTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41EC4B2127713BD50000BC90 /* Deal_RouletteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deal_RouletteTests.swift; sourceTree = "<group>"; };
+		41EC4B2727713BD50000BC90 /* Deal RouletteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Deal RouletteUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41EC4B2B27713BD50000BC90 /* Deal_RouletteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deal_RouletteUITests.swift; sourceTree = "<group>"; };
+		41EC4B2D27713BD50000BC90 /* Deal_RouletteUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deal_RouletteUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		41F191D5279C780C00657682 /* CheatSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheatSheet.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41EC4B0427713BD20000BC90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				416C23AB277181C300790AC4 /* FirebaseDatabaseSwift-Beta in Frameworks */,
+				416C23AF277181C300790AC4 /* FirebaseFirestoreSwift-Beta in Frameworks */,
+				416C23A9277181C300790AC4 /* FirebaseDatabase in Frameworks */,
+				416C23AD277181C300790AC4 /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41EC4B1A27713BD40000BC90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41EC4B2427713BD50000BC90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41EC4AFE27713BD20000BC90 = {
+			isa = PBXGroup;
+			children = (
+				41EC4B0927713BD20000BC90 /* Deal Roulette */,
+				41EC4B2027713BD40000BC90 /* Deal RouletteTests */,
+				41EC4B2A27713BD50000BC90 /* Deal RouletteUITests */,
+				41EC4B0827713BD20000BC90 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		41EC4B0827713BD20000BC90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41EC4B0727713BD20000BC90 /* Deal Roulette.app */,
+				41EC4B1D27713BD40000BC90 /* Deal RouletteTests.xctest */,
+				41EC4B2727713BD50000BC90 /* Deal RouletteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41EC4B0927713BD20000BC90 /* Deal Roulette */ = {
+			isa = PBXGroup;
+			children = (
+				41EC4B0A27713BD20000BC90 /* AppDelegate.swift */,
+				41EC4B0C27713BD20000BC90 /* SceneDelegate.swift */,
+				410DA478277162F3009D242D /* HomePage.swift */,
+				4141393827722F5D000276BC /* PayoutsFive.swift */,
+				4141393A27722F7C000276BC /* PayoutsSix.swift */,
+				4141393C27722F98000276BC /* PayoutsEight.swift */,
+				4141393E27722FB2000276BC /* PayoutsEleven.swift */,
+				4141394027722FD0000276BC /* PayoutsSeventeen.swift */,
+				4141394227722FEB000276BC /* PayoutsThirtyFive.swift */,
+				4115212D27922AAF00609717 /* PayoutStacks.swift */,
+				416E728A2772588400F27D6B /* PictureBets.swift */,
+				4115212F27922B1500609717 /* Tricks.swift */,
+				416E728C277259D500F27D6B /* FindTheNumber.swift */,
+				41F191D5279C780C00657682 /* CheatSheet.swift */,
+				41CC414127A47CE8002985C2 /* BeforeYouDeal.swift */,
+				41BCA34927A647CC00818B14 /* TutorialPay.swift */,
+				41BCA34B27A6483600818B14 /* TutorialTake.swift */,
+				41EC4B0E27713BD20000BC90 /* DealGame.swift */,
+				4111BFE127A487C7008221F4 /* hex.swift */,
+				41EC4B1027713BD20000BC90 /* Main.storyboard */,
+				41EC4B1327713BD40000BC90 /* Assets.xcassets */,
+				41EC4B1527713BD40000BC90 /* LaunchScreen.storyboard */,
+				41EC4B1827713BD40000BC90 /* Info.plist */,
+				416C23A327717BF500790AC4 /* GoogleService-Info.plist */,
+			);
+			path = "Deal Roulette";
+			sourceTree = "<group>";
+		};
+		41EC4B2027713BD40000BC90 /* Deal RouletteTests */ = {
+			isa = PBXGroup;
+			children = (
+				41EC4B2127713BD50000BC90 /* Deal_RouletteTests.swift */,
+			);
+			path = "Deal RouletteTests";
+			sourceTree = "<group>";
+		};
+		41EC4B2A27713BD50000BC90 /* Deal RouletteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				41EC4B2B27713BD50000BC90 /* Deal_RouletteUITests.swift */,
+				41EC4B2D27713BD50000BC90 /* Deal_RouletteUITestsLaunchTests.swift */,
+			);
+			path = "Deal RouletteUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41EC4B0627713BD20000BC90 /* Deal Roulette */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41EC4B3127713BD50000BC90 /* Build configuration list for PBXNativeTarget "Deal Roulette" */;
+			buildPhases = (
+				41EC4B0327713BD20000BC90 /* Sources */,
+				41EC4B0427713BD20000BC90 /* Frameworks */,
+				41EC4B0527713BD20000BC90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Deal Roulette";
+			packageProductDependencies = (
+				416C23A8277181C300790AC4 /* FirebaseDatabase */,
+				416C23AA277181C300790AC4 /* FirebaseDatabaseSwift-Beta */,
+				416C23AC277181C300790AC4 /* FirebaseFirestore */,
+				416C23AE277181C300790AC4 /* FirebaseFirestoreSwift-Beta */,
+			);
+			productName = "Deal Roulette";
+			productReference = 41EC4B0727713BD20000BC90 /* Deal Roulette.app */;
+			productType = "com.apple.product-type.application";
+		};
+		41EC4B1C27713BD40000BC90 /* Deal RouletteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41EC4B3427713BD50000BC90 /* Build configuration list for PBXNativeTarget "Deal RouletteTests" */;
+			buildPhases = (
+				41EC4B1927713BD40000BC90 /* Sources */,
+				41EC4B1A27713BD40000BC90 /* Frameworks */,
+				41EC4B1B27713BD40000BC90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41EC4B1F27713BD40000BC90 /* PBXTargetDependency */,
+			);
+			name = "Deal RouletteTests";
+			productName = "Deal RouletteTests";
+			productReference = 41EC4B1D27713BD40000BC90 /* Deal RouletteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		41EC4B2627713BD50000BC90 /* Deal RouletteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41EC4B3727713BD50000BC90 /* Build configuration list for PBXNativeTarget "Deal RouletteUITests" */;
+			buildPhases = (
+				41EC4B2327713BD50000BC90 /* Sources */,
+				41EC4B2427713BD50000BC90 /* Frameworks */,
+				41EC4B2527713BD50000BC90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41EC4B2927713BD50000BC90 /* PBXTargetDependency */,
+			);
+			name = "Deal RouletteUITests";
+			productName = "Deal RouletteUITests";
+			productReference = 41EC4B2727713BD50000BC90 /* Deal RouletteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41EC4AFF27713BD20000BC90 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					41EC4B0627713BD20000BC90 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					41EC4B1C27713BD40000BC90 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 41EC4B0627713BD20000BC90;
+					};
+					41EC4B2627713BD50000BC90 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 41EC4B0627713BD20000BC90;
+					};
+				};
+			};
+			buildConfigurationList = 41EC4B0227713BD20000BC90 /* Build configuration list for PBXProject "Deal Roulette" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 41EC4AFE27713BD20000BC90;
+			packageReferences = (
+				416C23A7277181C300790AC4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 41EC4B0827713BD20000BC90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41EC4B0627713BD20000BC90 /* Deal Roulette */,
+				41EC4B1C27713BD40000BC90 /* Deal RouletteTests */,
+				41EC4B2627713BD50000BC90 /* Deal RouletteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41EC4B0527713BD20000BC90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41EC4B1727713BD40000BC90 /* LaunchScreen.storyboard in Resources */,
+				416C23A427717BF500790AC4 /* GoogleService-Info.plist in Resources */,
+				41EC4B1427713BD40000BC90 /* Assets.xcassets in Resources */,
+				41EC4B1227713BD20000BC90 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41EC4B1B27713BD40000BC90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				416C23A527717BF500790AC4 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41EC4B2527713BD50000BC90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				416C23A627717BF500790AC4 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41EC4B0327713BD20000BC90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41EC4B0F27713BD20000BC90 /* DealGame.swift in Sources */,
+				4141393D27722F98000276BC /* PayoutsEight.swift in Sources */,
+				4111BFE227A487C7008221F4 /* hex.swift in Sources */,
+				4141394127722FD0000276BC /* PayoutsSeventeen.swift in Sources */,
+				4141393F27722FB2000276BC /* PayoutsEleven.swift in Sources */,
+				41CC414227A47CE8002985C2 /* BeforeYouDeal.swift in Sources */,
+				41EC4B0B27713BD20000BC90 /* AppDelegate.swift in Sources */,
+				416E728D277259D500F27D6B /* FindTheNumber.swift in Sources */,
+				416E728B2772588400F27D6B /* PictureBets.swift in Sources */,
+				4115213027922B1500609717 /* Tricks.swift in Sources */,
+				41BCA34A27A647CC00818B14 /* TutorialPay.swift in Sources */,
+				41EC4B0D27713BD20000BC90 /* SceneDelegate.swift in Sources */,
+				41F191D6279C780C00657682 /* CheatSheet.swift in Sources */,
+				4141393927722F5D000276BC /* PayoutsFive.swift in Sources */,
+				4115212E27922AB100609717 /* PayoutStacks.swift in Sources */,
+				4141393B27722F7C000276BC /* PayoutsSix.swift in Sources */,
+				410DA479277162F3009D242D /* HomePage.swift in Sources */,
+				41BCA34C27A6483600818B14 /* TutorialTake.swift in Sources */,
+				4141394327722FEB000276BC /* PayoutsThirtyFive.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41EC4B1927713BD40000BC90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41EC4B2227713BD50000BC90 /* Deal_RouletteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41EC4B2327713BD50000BC90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41EC4B2E27713BD50000BC90 /* Deal_RouletteUITestsLaunchTests.swift in Sources */,
+				41EC4B2C27713BD50000BC90 /* Deal_RouletteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		41EC4B1F27713BD40000BC90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41EC4B0627713BD20000BC90 /* Deal Roulette */;
+			targetProxy = 41EC4B1E27713BD40000BC90 /* PBXContainerItemProxy */;
+		};
+		41EC4B2927713BD50000BC90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41EC4B0627713BD20000BC90 /* Deal Roulette */;
+			targetProxy = 41EC4B2827713BD50000BC90 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		41EC4B1027713BD20000BC90 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41EC4B1127713BD20000BC90 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		41EC4B1527713BD40000BC90 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41EC4B1627713BD40000BC90 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		41EC4B2F27713BD50000BC90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		41EC4B3027713BD50000BC90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41EC4B3227713BD50000BC90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7LXKUHJHQV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Deal Roulette/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationLandscapeRight;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DealRoulette.Deal-Roulette";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		41EC4B3327713BD50000BC90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7LXKUHJHQV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Deal Roulette/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationLandscapeRight;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DealRoulette.Deal-Roulette";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		41EC4B3527713BD50000BC90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7YJN9DAF57;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DealRoulette.Deal-RouletteTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Deal Roulette.app/Deal Roulette";
+			};
+			name = Debug;
+		};
+		41EC4B3627713BD50000BC90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7YJN9DAF57;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DealRoulette.Deal-RouletteTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Deal Roulette.app/Deal Roulette";
+			};
+			name = Release;
+		};
+		41EC4B3827713BD50000BC90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7YJN9DAF57;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DealRoulette.Deal-RouletteUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Deal Roulette";
+			};
+			name = Debug;
+		};
+		41EC4B3927713BD50000BC90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7YJN9DAF57;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DealRoulette.Deal-RouletteUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Deal Roulette";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41EC4B0227713BD20000BC90 /* Build configuration list for PBXProject "Deal Roulette" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41EC4B2F27713BD50000BC90 /* Debug */,
+				41EC4B3027713BD50000BC90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41EC4B3127713BD50000BC90 /* Build configuration list for PBXNativeTarget "Deal Roulette" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41EC4B3227713BD50000BC90 /* Debug */,
+				41EC4B3327713BD50000BC90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41EC4B3427713BD50000BC90 /* Build configuration list for PBXNativeTarget "Deal RouletteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41EC4B3527713BD50000BC90 /* Debug */,
+				41EC4B3627713BD50000BC90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41EC4B3727713BD50000BC90 /* Build configuration list for PBXNativeTarget "Deal RouletteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41EC4B3827713BD50000BC90 /* Debug */,
+				41EC4B3927713BD50000BC90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		416C23A7277181C300790AC4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		416C23A8277181C300790AC4 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 416C23A7277181C300790AC4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		416C23AA277181C300790AC4 /* FirebaseDatabaseSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 416C23A7277181C300790AC4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseDatabaseSwift-Beta";
+		};
+		416C23AC277181C300790AC4 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 416C23A7277181C300790AC4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		416C23AE277181C300790AC4 /* FirebaseFirestoreSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 416C23A7277181C300790AC4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreSwift-Beta";
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 41EC4AFF27713BD20000BC90 /* Project object */;
+}
